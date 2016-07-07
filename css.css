@@ -1,0 +1,69 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+
+
+header{
+  width:100%;
+  height: 100px;
+  padding-top: 30px;
+  margin: 0px auto;
+  font-size: 60px;
+
+}
+
+a{color: rgb(30, 26, 235);}
+
+.logo{
+  width: 100px;
+  height: 100px;
+}
+
+nav{
+  list-style-type: none;margin: 0px;padding: 0px;
+  text-align: center;
+
+
+}
+
+nav li{
+  display: inline;
+  margin-right: 20px;
+}
+
+nav li a{text-decoration: none;}
+
+.top-menu ul li:hover{opacity: 1;}
+
+.first{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom,rgb(92, 212, 212),rgb(149, 102, 205),rgb(224, 148, 233));
+  background-size: 600%;
+  position: fixed;
+  z-index: -99;
+  animation: myfirst 60s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes myfirst {
+
+  0% {background-position: 50% 0%;}
+  50%{background-position: 50% 100%;}
+  100%{background-position: 50% 0%;}
+}
+
+.intext{
+  text-align: center;
+  margin-top: 25px;
+}
+
+footer{
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+
+}

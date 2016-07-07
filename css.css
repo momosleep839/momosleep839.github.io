@@ -30,7 +30,7 @@ header{
   background-color: rgb(58, 56, 71);
 }
 
-a{color: rgb(30, 26, 235);}
+a{color: rgb(12, 8, 115);}
 
 .logo{
   width: 100px;
@@ -65,9 +65,11 @@ footer{
   display: inline-block;
 }
 
+
+
 .topp{
   color: rgb(12, 8, 115);
-  margin: 0px;
+  margin-top: -25px;
   padding: 5px;
 }
 
@@ -78,6 +80,7 @@ footer{
 .topp a{text-decoration: none; font-size: 35px;}
 
 .topp a:hover{font-size: 45px;}
+
 
 .top:hover .fan{display: block;}
 
@@ -108,3 +111,58 @@ footer{
   font-size: 23px;
   margin: 0px auto;
 }
+
+.bts-profile{
+  color: white;
+  width: 1080px;
+  font-size: 23px;
+  margin: 0px auto;
+  margin-bottom: 25px;
+}
+
+
+
+.sequence{
+  width: 60%;
+  margin: 0px auto;
+
+}
+
+
+
+
+.dis-img-top{
+  width: 440px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.dis-title-top{
+  width: 340px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.dis-title-top img{margin: 23px}
+
+.dis-title img{width: 285px;}
+
+
+
+.dis-title{
+  width: 310px;
+  margin-right: 68px;
+  display: inline-block;;
+  vertical-align: top;
+}
+
+
+.yf{margin-bottom: 20px;}
+
+
+.dis-top{
+  padding: 30px 0px;
+  border-top: 9px solid white;
+}
+
+.bts-title a{font-size: 35px;}

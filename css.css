@@ -27,7 +27,7 @@ header{
   padding-top: 30px;
   margin: 0px auto;
   font-size: 50px;
-  background-color: rgb(58, 56, 71);
+  background-color: rgba(242, 168, 168, 0.99);
 }
 
 a{color: rgb(12, 8, 115);}
@@ -81,16 +81,17 @@ footer{
 
 .topp a:hover{font-size: 45px;}
 
+.top ul{display: none;}
 
-.top:hover .fan{display: block;}
+.top:hover .fan{display: block; margin-top: -5px;}
 
 .top:hover{color: rgb(82, 20, 214);}
 
-.top ul{display: none;}
+
 
 .fan{
   color: rgb(40, 207, 222);
-  background-color: rgba(56, 240, 12, 0.99);
+  background-color: rgba(242, 168, 168, 0.99);
   margin: 5px -5px;
   padding: 0px;
   list-style-type: none;
@@ -99,11 +100,11 @@ footer{
 
 .fan li{padding: 3px 5px; text-align: left;}
 
-.fan li:hover{color: rgb(10, 82, 54); background-color: rgb(13, 26, 12);}
+.fan li:hover{background-color: rgb(227, 106, 106);}
 
-.fan a{text-align: left; display: block; text-decoration: none; color: rgb(101, 40, 86);}
+.fan a{text-align: left; display: block; text-decoration: none; color: rgb(104, 74, 168);}
 
-.fan a:hover{color: rgb(204, 213, 30); background-color: rgb(62, 128, 29); text-decoration: none;}
+.fan a:hover{color: rgb(18, 23, 98); background-color: rgb(227, 106, 106); text-decoration: none;}
 
 .profile{
   color: white;
@@ -149,11 +150,24 @@ footer{
 
 
 
+
+
 .dis-title{
   width: 310px;
-  margin-right: 68px;
   display: inline-block;;
   vertical-align: top;
+}
+
+.dis-title p{
+  font-size: 30px;
+  color: white;
+  text-shadow: 0px 0px 15px rgb(154, 52, 244);
+  margin: 4px;
+}
+
+.dis-title span{
+  font-size: 20px;
+  color: white;
 }
 
 
@@ -163,6 +177,78 @@ footer{
 .dis-top{
   padding: 30px 0px;
   border-top: 9px solid white;
+
 }
 
+.bts-title{margin: 30px 0px;}
+
 .bts-title a{font-size: 35px;}
+
+.member-text img{
+  width: 240px;
+  border: 9px solid white;
+}
+
+.member-text{
+  margin: 0px auto;
+  text-align: center;
+  margin-right: -40px;
+  margin-top: -40px;
+}
+
+.members{
+  display: inline-block;
+  text-align: center;
+  font-size:20px;
+  //text-shadow:0px -1px 0px #ffb3b3,0px 0px 10px #000;
+  color:white;
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin-right:40px;
+  margin-top: 40px;
+  margin-bottom:80px;
+}
+
+.members p{
+  text-shadow: 0px 0px 15px rgb(249, 87, 63);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.twice-list{
+  text-align: left;
+  margin-left: 12px;
+  font-size: 25px;
+  color: white;
+}
+
+.bottom-left{
+  position:absolute;
+  top:50%;
+  left:0;
+  color:black;
+  font-size:30px;
+}
+
+.bottom-right{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  color: black;
+  font-size: 30px;
+}
+
+.slide{
+  max-width:960px;
+  max-height: 640px;
+  position:relative;
+  margin:0px auto;
+
+}
+
+.gotop{
+  font-size: 30px;
+
+}
+
+.gotop a{text-decoration: none;}

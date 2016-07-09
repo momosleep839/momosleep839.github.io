@@ -9,6 +9,7 @@
     <div class="first"></div>
     <header>
       <nav>
+        <a name="top"></a>
         <a href="index.html"><img src="http://www.iconpng.com/png/celebrations/sweet6.png" class="logo"></a>
         <span class="top">甜點日記
         <ul class="fan">
@@ -31,9 +32,11 @@
     </header>
     <article class="">
       <div class="topp">
-        <ul class="">
+        <ul>
+
           <li><a href="#members">成員簡介</a></li>
           <li><a href="#album">專輯一覽</a></li>
+          <li><a href="#photo">相片收藏</a></li>
         </ul>
       </div>
       <div class="bts-profile">
@@ -45,20 +48,80 @@
       <div class="bts-title">
         <a name="members">成員簡介</a>
       </div>
-      <div class="">
-        <img src="1.jpg" alt="" />
-        <ul>
-          <li></li>
-        </ul>
+      <div class="member-text">
+        <div class="members">
+          <img src="rm-img.jpg">
+          <p>RAP MONSTER</p>
+          本名：金南俊 <br>
+          生日：1994.09.12 <br>
+          身高：181 cm <br>
+          體重：67 kg
+        </div>
+        <div class="members">
+          <img src="suga-img.jpg">
+          <p>SUGA</p>
+          本名：閔玧其 <br>
+          生日：1993.03.09 <br>
+          身高：176 cm <br>
+          體重：59 kg
+        </div>
+        <div class="members">
+          <img src="jin-img.jpg">
+          <p>JIN</p>
+          本名：金碩珍 <br>
+          生日：1992.12.04 <br>
+          身高：179 cm <br>
+          體重：63 kg
+        </div>
+        <div class="members">
+          <img src="jhope-img.jpg">
+          <p>J-HOPE</p>
+          本名：鄭號錫 <br>
+          生日：1994.02.18 <br>
+          身高：177 cm <br>
+          體重：65 kg
+        </div>
+      </div>
+      <div class="member-text">
+        <div class="members">
+          <img src="jimin-img.jpg">
+          <p>JIMIN</p>
+          本名：朴智旻<br>
+          生日：1995.10.13<br>
+          身高：175 cm <br>
+          體重：61 kg
+        </div>
+        <div class="members">
+          <img src="v-img.jpg">
+          <p>V</p>
+          本名：金泰亨 <br>
+          生日：1995.12.30 <br>
+          身高：179 cm <br>
+          體重：62 kg
+        </div>
+        <div class="members">
+          <img src="jungkook-img.jpg">
+          <p>JUNGKOOK</p>
+          本名：田柾國 <br>
+          生日：1997.09.01 <br>
+          身高：178 cm <br>
+          體重：66 kg
+        </div>
+        <div class="gotop">
+          <a href="#top">Go to Top</a>
+        </div>
+
     </div>
     <div class="bts-title">
       <a name="album">專輯一覽</a>
     </div>
+
     <div class="sequence">
-      <div class="yf">
-      <div class="dis-img-top">
+    <div class="yf">
+    <div class="dis-img-top">
       <img src="disco-1-img.png" width="440">
     </div>
+
     <div class="dis-title-top">
       <img src="disco-1-title.png" width="274">
       <img src="disco-1-track.png" width="455">
@@ -106,7 +169,59 @@
     </div>
 
   </div>
+  <div class="gotop">
+    <a href="#top">Go to Top</a>
+  </div>
     </div>
+
+    <div class="bts-title">
+      <a name="photo">相片收藏</a>
+    </div>
+
+    <div class="slide">
+      <img class="mySlides" src="1.jpg" style="width:100%">
+      <img class="mySlides" src="2.jpg" style="width:100%">
+      <img class="mySlides" src="3.jpg" style="width:100%">
+      <img class="mySlides" src="4.jpg" style="width:100%">
+      <img class="mySlides" src="5.jpg" style="width:100%">
+      <img class="mySlides" src="6.jpg" style="width:100%">
+      <img class="mySlides" src="7.jpg" style="width:100%">
+      <img class="mySlides" src="8.jpg" style="width:100%">
+      <img class="mySlides" src="9.jpg" style="width:100%">
+      <img class="mySlides" src="10.jpg" style="width:100%">
+      <img class="mySlides" src="11.jpg" style="width:100%">
+      <img class="mySlides" src="12.jpg" style="width:100%">
+
+
+      <a class="bottom-left" onclick="plusDivs(-1)">❮</a>
+      <a class="bottom-right" onclick="plusDivs(1)">❯</a>
+
+      <div class="gotop">
+        <a href="#top">Go to Top</a>
+      </div>
+    </div>
+
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+      }
+    </script>
+
+
 
     </article>
 

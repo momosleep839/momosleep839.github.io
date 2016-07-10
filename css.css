@@ -325,6 +325,7 @@ article{margin-top: 100px;}
   width: 720px;
   height: 500px;
   margin: 0px auto;
+  border: 5px solid white;
   }
 
 .slide-show{margin-top: 45px}

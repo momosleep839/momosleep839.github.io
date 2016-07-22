@@ -1,0 +1,9 @@
+
+
+
+top font color= #ea4d35
+top font a = #ffcac2
+
+font color = #2f2f2f
+
+foot bar =#background

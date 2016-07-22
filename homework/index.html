@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>異想曲</title>
+    <link rel="stylesheet" href="css.css" media="screen" title="no title" charset="utf-8">
+  </head>
+
+  <body>
+    <div class="first"></div>
+    <header>
+      <div class="top-logo">
+        <a href="index.html"><img src="http://raki.st/6P6Vtm/img1" class="logo"></a>
+      </div>
+
+
+
+      <nav>
+        <span class="top">甜點日記
+        <ul class="fan">
+          <li><a href="share-R.html">食譜筆記</a></li>
+          <li><a href="shop.html">好食相報</a></li>
+        </ul>
+        </span>
+        <span class="top">迷妹人生
+          <ul class="fan">
+            <li><a href="about-bts.html">關於BTS</a></li>
+            <li><a href="about-twice.html">關於TWICE</a></li>
+          </ul>
+        </span>
+        <span><a href="https://learningdrupalgroup.hackpad.com/">學習手扎</a></span>
+      </nav>
+    </header>
+
+    <article class="intext">
+      <section>
+        這裡是紀錄我的興趣的所在地<br>
+        "異想曲"這個名字是我突然想到的， <br>
+        感覺就很適合整天天馬行空，想一些有的沒有的我。
+      </section>
+    </article>
+    <article class="slide-show">
+      <div>
+      <img class="slideshow" src="https://media.zenfs.com/zh-Hant-HK/homerun/entertainment.nownews.hk/b9c066dd76c4fc4e6ba70c050cee7474" />
+			<img class="slideshow" src="http://img.idol001.com/origin/2016/02/01/1b7263d57ba19e7c059e5f4a177c29151454306518.jpg" />
+			<img class="slideshow" src="http://www.anawalls.com/images/food/cookies-berry-dessert-strawberry-bilberry-blackberry.jpg" />
+			<img class="slideshow" src="http://imgapi.nownews.com/?w=720&q=60&src=http://s.nownews.com/media_crop/128092/hash/a9/c7/a9c79bf9d44b3598636a02fb37d55ff3.PNG"/>
+			<img class="slideshow" src="https://i.imgur.com/OWpnELB.jpg" />
+      <img class="slideshow" src="https://peggy0711tw.files.wordpress.com/2014/09/img_1289.jpg" />
+      <img class="slideshow" src="https://media.zenfs.com/zh-Hant-HK/homerun/entertainment.nownews.hk/35a6c9acf618f635976ca41db38a0569" />
+      <img class="slideshow" src="http://vlovekpop.s3-us-west-2.amazonaws.com/wp-content/uploads/2016/02/23163307/15.1N0223.jpg" />
+      <img class="slideshow" src="http://4.bp.blogspot.com/-O8YQSY5xte4/VWleOgkMmnI/AAAAAAAAJQc/8CXOvRfAanA/s1600/IMG_8757-9.jpg" />
+      <img class="slideshow" src="http://imgapi.nownews.com/?w=720&q=60&src=http://s.nownews.com/media_crop/127575/hash/d6/3b/d63b5846b502994917b6ac6c492f9c4d.jpg" />
+      <img class="slideshow" src="http://img.idol001.com/origin/2016/02/01/c484f4fd93fc8811ada17e80dcc3adb71454306514.jpg" />
+      <img class="slideshow" src="https://i.ytimg.com/vi/VkQ3b0DRdAQ/maxresdefault.jpg" />
+		</div>
+    </article>
+
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("slideshow");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); //Change image every 2 seconds
+}
+</script>
+
+
+  </body>
+</html>

@@ -21,10 +21,11 @@ body{
 .top-text a{
   color: #ea4d35;
   text-decoration: none;
+  transition: color .20s linear;
 }
 
 .top-text a:hover{
-  transition: color .20s linear;
+
   color: #ffcac2;
 }
 
@@ -122,10 +123,10 @@ body{
 .s-tittle a{
   color: #ea4d35;
   text-decoration: none;
+  transition: color .20s linear;
 }
 
 .s-tittle a:hover{
-  transition: color .20s linear;
   color: #ffcac2;
 }
 /*大標*/
@@ -219,11 +220,23 @@ body{
 .v{
   display: inline-block;
 }
-/*第一篇文章的圖*/
+/*第一篇文章的圖，含特效*/
 .v img{
+  transition: all 0.5s linear;
+}
+
+.v img:hover{
+  width: 600px;
+  height: 350px;
+  transform: translate(-25px, -25px);
+}
+
+.v2{
   width: 550px;
   height: 300px;
+  overflow: hidden;
 }
+
 /*第一篇文章的文字部份*/
 .v1{
   display: inline-block;
@@ -284,13 +297,22 @@ body{
 }
 
 .intext-img{
-  display: inline-block;
   width: 430px;
+  height: 250px;
+  display: inline-block;
+  overflow: hidden;
 }
 
 .intext-img img{
   width: 430px;
   height: 250px;
+  transition: all 0.5s linear;
+}
+
+.intext-img img:hover{
+  width: 480px;
+  height: 300px;
+  transform: translate(-25px, -25px);
 }
 
 .intext-title{
@@ -303,10 +325,10 @@ body{
   font-size: 18px;
   text-decoration: none;
   color: #ea4d35;
+  transition: color .30s linear;
 }
 
 .intext-title a:hover{
-  transition: color .30s linear;
   color: #ffcac2;
 }
 
@@ -330,9 +352,22 @@ body{
   margin: 0px 37px;
 }
 
+.pro-img{
+  width: 430px;
+  height: 325px;
+  overflow: hidden;
+}
+
 .pro-img img{
   width: 430px;
   height: 325px;
+  transition: all 0.5s linear;
+}
+
+.pro-img img:hover{
+  width: 480px;
+  height: 375px;
+  transform: translate(-25px, -25px);
 }
 
 .pro-title{
@@ -343,10 +378,10 @@ body{
   font-size: 18px;
   text-decoration: none;
   color: #ea4d35;
+  transition: color .30s linear;
 }
 
 .pro-title a:hover{
-  transition: color .30s linear;
   color: #ffcac2;
 }
 /*把最下面一排設成last，這樣設bottom比較方便*/
@@ -367,10 +402,10 @@ body{
   font-size: 16px;
   text-decoration: none;
   color: #ea4d35;
+  transition: color .30s linear;
 }
 
 .change-page a:hover{
-  transition: color .30s linear;
   color: #ffcac2;
 }
 
@@ -389,6 +424,7 @@ body{
 
 .bbb{
   display: inline-block;
+
 }
 
 .frist{
@@ -451,6 +487,16 @@ body{
   margin-left: 30px;
 }
 
+.button{
+  float: right;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  margin-right: 310px;
+  width: 50px;
+  height: 25px;
+  font-size: 16px;
+}
+
 .map{
   margin-top: 50px;
 }
@@ -464,10 +510,10 @@ body{
   font-size: 16px;
   text-decoration: none;
   color: #ea4d35;
+  transition: color .30s linear;
 }
 
 .map-link a:hover{
-  transition: color .30s linear;
   color: #ffcac2;
 }
 
